@@ -1,0 +1,70 @@
+.card {
+  padding: 3rem;
+  margin-left: 15rem;
+  margin-top: 5rem;
+  width: 35rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-image: linear-gradient(to right, #bbd2c5, #536976, #292e49);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.error {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: orangered;
+}
+
+label {
+  color: #292e49;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 75%;
+  padding: 1rem;
+  color: #292e49 !important;
+  font-size: 1.5rem;
+}
+.btn {
+  text-align: center;
+}
+
+.button {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: #4caf50;
+  color: black;
+}
+
+.button:hover {
+  color: white;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+  border: none;
+  backface-visibility: hidden;
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+  background-color: #3f3f3f;
+  cursor: not-allowed;
+}

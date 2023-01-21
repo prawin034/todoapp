@@ -1,0 +1,36 @@
+.nav {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.nav li {
+  list-style: none;
+  background-image: linear-gradient(to right, #141e30, #243b55);
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  display: inline-block;
+  padding: 1rem;
+}
+
+a:hover {
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+  width: 100%;
+  transform: translateX(-2rem);
+  transition: all 0.4s ease-in;
+}
+a:hover,
+a:active,
+a.active {
+  background-color: #008080;
+  width: 100%;
+}
